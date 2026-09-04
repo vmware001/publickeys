@@ -38,3 +38,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
 done <<< "$paste_here"
 
 echo "完成。新增 $added 条，跳过 $skipped 条。authorized_keys 总行数: $(wc -l < "$AUTH_KEYS")"
+
+echo ""
+echo "=== 当前 authorized_keys 内容 ==="
+cat "$AUTH_KEYS"

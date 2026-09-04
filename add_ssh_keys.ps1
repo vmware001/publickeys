@@ -39,3 +39,7 @@ foreach ($line in ($paste_here -split "`r?`n")) {
 }
 
 Write-Host "完成。新增 $added 条，跳过 $skipped 条。"
+
+Write-Host ""
+Write-Host "=== 当前 authorized_keys 内容 ==="
+Get-Content -Path $authKeys
