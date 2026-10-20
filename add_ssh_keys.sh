@@ -3,7 +3,7 @@ set -euo pipefail
 
 # 把公钥直接粘贴到下面双引号之间，每行一条；后续新增直接加行即可
 paste_here="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJl7jqc1dUeXAtjjYt99GmFGDxOS+muwOSru1qw21H/d vm001@admin
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIObzPFegQQDjF/i9nyBJgFKPkNK3jKedyBBKLKsUt1ol mac-mini
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHhd/pbPp+bjWidDiRVkaVd3wRb6/6ZiBIJexsvgsicn admin@192
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO5AzNlxdjEH/gKLuHncuHG16ALel06xm90ZGU8Uhdhf lenovo
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB8R+/1Ypa+hNmxhJ6GnRLNRltFQpG1fjVckaUMBUXft u0_a439@localhost
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPIy+t4sZkh5rf4DLhgpEbKHdKho1ldQNXwdrm9yue+8 u0_a330@localhost"
